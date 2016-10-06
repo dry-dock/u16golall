@@ -1,5 +1,6 @@
 #u16golall
 Docker image with ubuntu 16.04 + gol + all services &amp; tools
+
 1. 1.1
 2. 1.2
 3. 1.3
@@ -9,6 +10,7 @@ Docker image with ubuntu 16.04 + gol + all services &amp; tools
 7. 1.7
 
 **Services:**
+
 1. cassandra 3.6
 2. couchdb 1.6
 3. elasticsearch 2.4
