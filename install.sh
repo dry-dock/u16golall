@@ -19,6 +19,8 @@ apt-get update && apt-get install -y \
 echo "================= Install gvm ==================="
 curl -s -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
 
+export CGO_ENABLED=0
+
 #!/bin/bash
 for file in /u16golall/version/*;
 do
