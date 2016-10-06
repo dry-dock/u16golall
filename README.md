@@ -1,2 +1,25 @@
-# u16golall
-Docker image with ubuntu 16.04 + golang + all services &amp; tools
+#u16golall
+Docker image with ubuntu 16.04 + gol + all services &amp; tools
+1. 1.1
+2. 1.2
+3. 1.3
+4. 1.4
+5. 1.5
+6. 1.6
+7. 1.7
+
+**Services:**
+1. cassandra 3.6
+2. couchdb 1.6
+3. elasticsearch 2.4
+4. memcached 1.4
+5. mongodb 3.2
+6. mysql 5.7
+7. neo4j 3.0
+8. postgres 9.6
+9. rabbitmq 3.6
+10. redis 3.0
+11. rethinkdb 2.3
+12. riak 2.0.7
+13. selenium 2.53
+14. sqllite 3
