@@ -6,4 +6,4 @@
 # Install Go 1.6
 echo "================= Install Go 1.6 ==================="
 gvm use go1.4
-gvm install go1.6 && gvm use go1.6 && go install -a -race std && go get -u github.com/tools/godep
+gvm install go1.6 && gvm use go1.6 && go install -a std && go get -u github.com/tools/godep

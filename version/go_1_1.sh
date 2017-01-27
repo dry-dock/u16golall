@@ -5,4 +5,4 @@
 
 # Install Go 1.1
 echo "================= Install Go 1.1 ==================="
-gvm install go1.1 && gvm use go1.1 && go install -a -race std && go get -u github.com/tools/godep
+gvm install go1.1 && gvm use go1.1 && go install -a std && go get -u github.com/tools/godep
