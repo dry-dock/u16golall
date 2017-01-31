@@ -8,6 +8,6 @@ for version in "${versions[@]}"
   do
     echo "######### Testing Go$version ###################"
     gvm use $version
-     go version
+    go version
 done
 
