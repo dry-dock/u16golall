@@ -4,6 +4,7 @@ Docker image with ubuntu 16.04 + gol + all services &amp; tools
 
 1. 1.7.6
 2. 1.8.3
+3. 1.9.1
 
 
 **Services:**
@@ -22,5 +23,3 @@ Docker image with ubuntu 16.04 + gol + all services &amp; tools
  12.  riak 2.2.3
  13.  selenium 3.4.0
  14.  sqllite 3.19.3
-
-
