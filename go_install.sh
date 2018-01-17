@@ -9,7 +9,7 @@ gvm install go1.4 && gvm use go1.4 && go install -a std && go get -u github.com/
 
 
 
-declare -a versions=( '1.7.6' '1.8.3' '1.9.1' )
+declare -a versions=( '1.7.6' '1.8.5' '1.9.2' )
 for version in "${versions[@]}"
   do
      echo "================= Install Go $version==================="
