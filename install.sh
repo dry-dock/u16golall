@@ -20,4 +20,6 @@ echo "================= Install gvm ==================="
 curl -s -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
 
 export CGO_ENABLED=0
+
+echo '[[ -s "/root/.gvm/scripts/gvm" ]] && source "/root/.gvm/scripts/gvm"' >> /etc/drydock/.env
 /u16golall/go_install.sh
