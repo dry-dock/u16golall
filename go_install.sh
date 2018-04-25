@@ -13,7 +13,7 @@ declare -a versions=( '1.7.6' '1.8.7' '1.9.5' '1.10.1' )
 for version in "${versions[@]}"
   do
      echo "================= Install Go $version==================="
-     gvm use go1.4
+     gvm use go1.4.2
      export GOROOT_BOOTSTRAP=$GOROOT
      gvm install go$version && gvm use go$version && go install -a std && go get -u github.com/tools/godep
 done
