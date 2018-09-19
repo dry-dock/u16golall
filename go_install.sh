@@ -4,16 +4,17 @@
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source $HOME/.gvm/scripts/gvm
 export CGO_ENABLED=0
 
-echo "============= Installing Go 1.4 ===================="
-gvm install go1.4
+export GVM_INSTALL=1.8.3
+echo "============= Installing Go $GVM_INSTALL ===================="
+gvm install go"$GVM_INSTALL"
 
-echo "=========== Using go1.4 ==================="
+echo "=========== Using go $GVM_INSTALL ==================="
 source /root/.gvm/scripts/gvm
-gvm use go1.4
+gvm use go"$GVM_INSTALL"
 go install -a std
 go get -u github.com/tools/godep
 
-declare -a versions=( '1.9.7' '1.10.3' )
+declare -a versions=( '1.9.7' '1.11' )
 for version in "${versions[@]}"
   do
     echo "================= Install Go $version==================="
