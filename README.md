@@ -2,8 +2,8 @@
 # u16golall
 Docker image with ubuntu 16.04 + gol + all services &amp; tools
 
-1. 1.10.7
-2. 1.11.4
+1. 1.10.8
+2. 1.11.5
 
 u16golall Docker Hub repo: [drydock/u16golall](https://hub.docker.com/r/drydock/u16golall/)
   
